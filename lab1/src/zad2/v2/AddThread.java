@@ -1,9 +1,9 @@
-package zad1_2.v1;
+package zad2.v2;
 
-public class Add implements Runnable{
+public class AddThread extends Thread{
     Counter c;
 
-    public Add(Counter c) {
+    public AddThread(Counter c) {
         this.c = c;
     }
 

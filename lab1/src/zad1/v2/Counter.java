@@ -1,4 +1,4 @@
-package zad1_2.v1;
+package zad1.v2;
 
 public class Counter {
     private int i;
@@ -7,11 +7,11 @@ public class Counter {
         this.i = i;
     }
 
-    public synchronized void increment(){
+    public void increment(){
         this.i += 1;
     }
 
-    public synchronized void decrement(){
+    public void decrement(){
         this.i -= 1;
     }
 

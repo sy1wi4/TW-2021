@@ -1,9 +1,9 @@
-package zad1_2.v1;
+package zad2.v1;
 
-public class Subtract implements Runnable  {
+public class SubtractThread implements Runnable  {
     Counter c;
 
-    public Subtract(Counter c) {
+    public SubtractThread(Counter c) {
         this.c = c;
     }
 

@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f78a7c6-3b0c-4628-acd6-6510dbcaf71a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad1/v1/AddThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad1/v1/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad1/v1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad1/v1/SubtractThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad2/v1/AddThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad2/v1/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad2/v1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad2/v1/SubtractThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad2/v2/AddThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad2/v2/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad2/v2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/src/zad2/v2/SubtractThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TW.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/zad1_2/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad1_2/v1/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/zad1_2/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad1_2/v1/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/zad1_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad1_2/v1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/zad1_2/Subtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad1_2/v1/Subtract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/zad3/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad3/Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/zad3/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad3/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/zad3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/zad3/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad3/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/zad1_2/v1/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad1/v2/AddThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/zad1_2/v1/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad1/v2/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/zad1_2/v1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad1/v2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/src/zad1_2/v1/Subtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad1/v2/SubtractThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1zPVYVaf6Ta1O9PhG0DvPYw6wu7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1zpPyrzNk3jCyQ1XTNrZm5OXOiJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="13" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab1/src/zad2/v2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\studia\sem5\TW\TW_lab1\lab1" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\studia\sem5\TW\TW\lab1\src\zad2\v2" />
+      <recent name="D:\studia\sem5\TW\TW\lab1\src\zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zad3.Main" />
+      <option name="MAIN_CLASS_NAME" value="zad1.v2.Main" />
       <module name="TW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zad3.*" />
+          <option name="PATTERN" value="zad1.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="zad1_2.v1.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zad2.v1.Main" />
       <module name="TW" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zad2.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zad2.v2.Main" />
+      <module name="TW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zad2.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zad1.v1.Main" />
+      <module name="TW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zad1.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,24 +119,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8f78a7c6-3b0c-4628-acd6-6510dbcaf71a" name="Default Changelist" comment="" />
-      <created>1634049759007</created>
+      <changelist id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="" />
+      <created>1634842318690</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1634049759007</updated>
-      <workItem from="1634838680392" duration="834000" />
-      <workItem from="1634839537617" duration="119000" />
+      <updated>1634842318690</updated>
+      <workItem from="1634842322408" duration="1188000" />
     </task>
     <servers />
   </component>
@@ -124,6 +151,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
