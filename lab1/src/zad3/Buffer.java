@@ -7,6 +7,5 @@ public class Buffer {
     }
 
     public void put(String s){
-
     }
 }
