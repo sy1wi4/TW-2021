@@ -1,4 +1,4 @@
-package com.company.zad3;
+package zad3;
 
 public class Consumer implements Runnable{
     private Buffer buffer;

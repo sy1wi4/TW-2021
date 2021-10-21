@@ -1,4 +1,4 @@
-package com.company.zad3;
+package zad3;
 
 public class Buffer {
 

@@ -1,4 +1,4 @@
-package com.company.zad1_2;
+package zad1_2.v1;
 
 public class Subtract implements Runnable  {
     Counter c;
