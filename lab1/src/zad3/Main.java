@@ -1,13 +1,12 @@
 package zad3;
 
-import sun.awt.windows.ThemeReader;
-
 public class Main {
-    int AMOUNT = 10;
     public static void main(String[] args) throws InterruptedException {
+        int AMOUNT = 100;
+
         Buffer b = new Buffer();
-        Producer p = new Producer(b, 10);
-        Consumer c = new Consumer(b,10);
+        Producer p = new Producer(b, AMOUNT);
+        Consumer c = new Consumer(b, AMOUNT);
 
         Thread pTh = new Thread(p);
         Thread cTh = new Thread(c);

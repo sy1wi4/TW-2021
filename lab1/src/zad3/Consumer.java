@@ -1,8 +1,9 @@
 package zad3;
 
 public class Consumer implements Runnable{
-    private Buffer buffer;
-    private int amount;
+    private final Buffer buffer;
+    private final int amount;
+
     public Consumer(Buffer buffer, int amount) {
         this.buffer = buffer;
         this.amount = amount;
@@ -10,8 +11,14 @@ public class Consumer implements Runnable{
 
     @Override
     public void run() {
-        for(int i = 0;  i < amount;   i++) {
-            String message = buffer.take();
+        for(int i = 0; i < amount; i++) {
+            try {
+                String message = buffer.take();
+                System.out.println("Consumed: " + message);
+
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
