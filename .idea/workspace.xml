@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="Init producer-consumer">
+      <change afterPath="$PROJECT_DIR$/lab2/src/zad1/AddThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/zad1/BinarySemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/zad1/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/zad1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/zad1/SubtractThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/zad3/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad3/Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/zad3/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad3/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/zad3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/src/zad3/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/src/zad3/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TW.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,29 +36,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab1/src/zad2/v2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab2/src/zad1" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab2/src/zad1" />
+      <recent name="$PROJECT_DIR$/lab2" />
       <recent name="D:\studia\sem5\TW\TW\lab1\src\zad2\v2" />
       <recent name="D:\studia\sem5\TW\TW\lab1\src\zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zad1.v2.Main" />
-      <module name="TW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zad1.v2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zad2.v1.Main" />
       <module name="TW" />
@@ -89,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zad1.Main" />
+      <module name="TW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zad1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zad1.v1.Main" />
       <module name="TW" />
@@ -102,26 +116,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +147,7 @@
       <updated>1634842318690</updated>
       <workItem from="1634842322408" duration="6222000" />
       <workItem from="1634990180120" duration="3486000" />
+      <workItem from="1635244097602" duration="4864000" />
     </task>
     <task id="LOCAL-00001" summary="Add synchronized and not synchronized versions">
       <created>1634843742124</created>
