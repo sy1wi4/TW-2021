@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="Init producer-consumer">
-      <change afterPath="$PROJECT_DIR$/lab2/src/zad1/AddThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/zad1/BinarySemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/zad1/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/zad1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/zad1/SubtractThread.java" afterDir="false" />
+    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="Add binary semaphore">
+      <change afterPath="$PROJECT_DIR$/lab2/src/zad2/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/zad2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/zad2/Semaphore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TW.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,9 @@
       <recent name="$PROJECT_DIR$/lab2" />
       <recent name="D:\studia\sem5\TW\TW\lab1\src\zad2\v2" />
       <recent name="D:\studia\sem5\TW\TW\lab1\src\zad2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zad2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (5)">
@@ -116,17 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (5)" />
@@ -147,7 +136,8 @@
       <updated>1634842318690</updated>
       <workItem from="1634842322408" duration="6222000" />
       <workItem from="1634990180120" duration="3486000" />
-      <workItem from="1635244097602" duration="4864000" />
+      <workItem from="1635244097602" duration="7718000" />
+      <workItem from="1635852312610" duration="220000" />
     </task>
     <task id="LOCAL-00001" summary="Add synchronized and not synchronized versions">
       <created>1634843742124</created>
@@ -163,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634849214296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add binary semaphore">
+      <created>1635260691916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635260691916</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +181,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add synchronized and not synchronized versions" />
     <MESSAGE value="Init producer-consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init producer-consumer" />
+    <MESSAGE value="Add binary semaphore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add binary semaphore" />
   </component>
 </project>
