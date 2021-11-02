@@ -2,8 +2,10 @@ package zad2;
 
 public class Semaphore {
     int value;
-    public Semaphore(int value) {
-        this.value = value;
+    int capacity;
+    public Semaphore(int capacity) {
+        this.value = capacity;
+        this.capacity = capacity;
     }
 
     public synchronized void lock() {
@@ -20,5 +22,9 @@ public class Semaphore {
     public synchronized void unlock() {
         value += 1;
         notifyAll();
+    }
+
+    public int getValue() {
+        return value;
     }
 }

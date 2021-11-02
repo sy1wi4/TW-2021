@@ -10,16 +10,17 @@ public class Customer implements Runnable {
 
     @Override
     public void run() {
-        for (int i = 0; i < 10; i++){
-            System.out.println("took basket: " + id);
+        for (int i = 0; i < 100; i++){
             semaphore.lock();
+            System.out.println("Customer in: " + id + ". Left baskets: " + semaphore.getValue());
             try {
-                Thread.sleep(10);
+                Thread.sleep((long)(Math.random() * 100));
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
             semaphore.unlock();
-            System.out.println("returned basket: " + id);
+            System.out.println("Customer out: " + id + ". Left baskets: " + semaphore.getValue());
+
         }
     }
 }

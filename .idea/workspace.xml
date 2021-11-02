@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="Add binary semaphore">
-      <change afterPath="$PROJECT_DIR$/lab2/src/zad2/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/zad2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/src/zad2/Semaphore.java" afterDir="false" />
+    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="init zad2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/zad1/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/zad1/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/zad2/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/zad2/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/zad2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/zad2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/zad2/Semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/zad2/Semaphore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +51,13 @@
       <recent name="zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zad2.v1.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zad2.Main" />
       <module name="TW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zad2.v1.*" />
+          <option name="PATTERN" value="zad2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zad2.v2.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zad2.v1.Main" />
       <module name="TW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zad2.v2.*" />
+          <option name="PATTERN" value="zad2.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +151,7 @@
       <workItem from="1634842322408" duration="6222000" />
       <workItem from="1634990180120" duration="3486000" />
       <workItem from="1635244097602" duration="7718000" />
-      <workItem from="1635852312610" duration="220000" />
+      <workItem from="1635852312610" duration="4567000" />
     </task>
     <task id="LOCAL-00001" summary="Add synchronized and not synchronized versions">
       <created>1634843742124</created>
@@ -160,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635260691916</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init zad2">
+      <created>1635852842117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635852842117</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +203,7 @@
     <MESSAGE value="Add synchronized and not synchronized versions" />
     <MESSAGE value="Init producer-consumer" />
     <MESSAGE value="Add binary semaphore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add binary semaphore" />
+    <MESSAGE value="init zad2" />
+    <option name="LAST_COMMIT_MESSAGE" value="init zad2" />
   </component>
 </project>

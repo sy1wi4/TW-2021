@@ -12,14 +12,12 @@ public class Counter {
     public void increment() {
         binSemaphore.lock();
         i += 1;
-//        System.out.println(i);
         binSemaphore.unlock();
     }
 
     public void decrement(){
         binSemaphore.lock();
         i -= 1;
-//        System.out.println(i);
         binSemaphore.unlock();
     }
 
