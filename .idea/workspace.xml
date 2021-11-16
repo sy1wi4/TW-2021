@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/lab4/src/zad1/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/zad1/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/zad1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/zad1/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/zad1/Producer.java" afterDir="false" />
+    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="production line with buffer">
+      <change afterPath="$PROJECT_DIR$/lab4/src/zad2/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/zad2/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/zad2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/zad2/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       <recent name="zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -97,6 +96,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zad2.Main" />
+      <module name="lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zad2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zad2.Main" />
       <module name="lab3" />
@@ -112,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
@@ -134,7 +147,7 @@
       <workItem from="1636990724972" duration="1445000" />
       <workItem from="1636992185756" duration="103000" />
       <workItem from="1636992304190" duration="1975000" />
-      <workItem from="1637018852500" duration="8143000" />
+      <workItem from="1637018852500" duration="10997000" />
     </task>
     <task id="LOCAL-00001" summary="Add synchronized and not synchronized versions">
       <created>1634843742124</created>
@@ -171,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636992806232</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="production line with buffer">
+      <created>1637027520307</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637027520307</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +215,7 @@
     <MESSAGE value="Add binary semaphore" />
     <MESSAGE value="init zad2" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="production line with buffer" />
+    <option name="LAST_COMMIT_MESSAGE" value="production line with buffer" />
   </component>
 </project>
