@@ -4,11 +4,11 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class NaiveBuffer implements Buffer{
-    private int maxCapacity;
+public class NaiveBuffer implements Buffer {
+    private final int maxCapacity;
+    private final Lock lock;
+    private final Condition condition;
     private int currentlyOccupied;
-    private Lock lock;
-    private Condition condition;
 
     public NaiveBuffer(int maxCapacity) {
         this.maxCapacity = maxCapacity;
@@ -21,13 +21,12 @@ public class NaiveBuffer implements Buffer{
     public void put(int itemsNumber) throws InterruptedException {
         lock.lock();
         // until fits
-        while(currentlyOccupied + itemsNumber > maxCapacity){
+        while (currentlyOccupied + itemsNumber > maxCapacity) {
             condition.await();
         }
         currentlyOccupied += itemsNumber;
         System.out.println(itemsNumber + " item(s) put,   " + this);
 
-        condition.signal();
         lock.unlock();
     }
 
@@ -35,17 +34,17 @@ public class NaiveBuffer implements Buffer{
     public void take(int itemsNumber) throws InterruptedException {
         lock.lock();
         // until enough elements
-        while(currentlyOccupied - itemsNumber < 0){
+        while (currentlyOccupied - itemsNumber < 0) {
             condition.await();
         }
 
         currentlyOccupied -= itemsNumber;
         System.out.println(itemsNumber + " item(s) taken, " + this);
 
-        condition.signal();
         lock.unlock();
     }
 
+    @Override
     public int getMaxCapacity() {
         return maxCapacity;
     }

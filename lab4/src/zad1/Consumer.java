@@ -15,7 +15,6 @@ public class Consumer implements Runnable {
             for (int i = 0; i < buffer.getSize(); i++) {
                 buffer.lock(i);
                 while (buffer.getTapeValue(i) != buffer.getMaxTapeValue()) {
-                    System.out.println("Consumer, czekam se " + i);
                     buffer.conditionAwait(i);
                 }
 
@@ -28,7 +27,7 @@ public class Consumer implements Runnable {
                 System.out.println("Consumed on seg [" + i + "]\n" + buffer);
 
                 try {
-                    Thread.sleep(new Random().nextInt(1000) + 200);
+                    Thread.sleep(new Random().nextInt(100) + 200);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

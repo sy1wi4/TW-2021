@@ -3,10 +3,10 @@ package zad1;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        int PROCESSORS = 5;
+        int PROCESSORS = 8;
         int THREADS = PROCESSORS + 2;
 
-        Buffer buffer = new Buffer(10, PROCESSORS);
+        Buffer buffer = new Buffer(7, PROCESSORS);
         System.out.println(buffer);
 
         Thread[] threads = new Thread[THREADS];

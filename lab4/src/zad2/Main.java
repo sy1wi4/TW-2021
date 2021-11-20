@@ -10,11 +10,11 @@ public class Main {
         int PRODUCERS = 10;
         int CONSUMERS = 10;
 
-        Buffer naiveBuffer = new NaiveBuffer(M);
-        execute(naiveBuffer, PRODUCERS, CONSUMERS);
+//        Buffer naiveBuffer = new NaiveBuffer(M);
+//        execute(naiveBuffer, PRODUCERS, CONSUMERS);
 
-//        Buffer fairBuffer = new FairBuffer(M);
-//        execute(fairBuffer, PRODUCERS, CONSUMERS);
+        Buffer fairBuffer = new FairBuffer(M);
+        execute(fairBuffer, PRODUCERS, CONSUMERS);
     }
 
     private static void execute(Buffer buffer, int PRODUCERS, int CONSUMERS) throws InterruptedException {

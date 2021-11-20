@@ -16,7 +16,6 @@ public class Producer implements Runnable {
                 buffer.lock(i);
                 // wait until resource on tape is consumed (-1)
                 while (buffer.getTapeValue(i) != -1) {
-                    System.out.println("Producer, czekam se " + i);
                     buffer.conditionAwait(i);
                 }
 
@@ -29,7 +28,7 @@ public class Producer implements Runnable {
                 System.out.println("Produced on seg [" + i + "]\n" + buffer);
 
                 try {
-                    Thread.sleep(new Random().nextInt(1000) + 200);
+                    Thread.sleep(new Random().nextInt(100) + 200);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

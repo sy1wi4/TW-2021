@@ -18,14 +18,13 @@ public class Processor implements Runnable {
                 buffer.lock(i);
                 // processor 0 is first - value should be set to 0, etc.
                 while (buffer.getTapeValue(i) != id) {
-                    System.out.println("Processor, czekam se " + i);
                     buffer.conditionAwait(i);
                 }
                 buffer.process(i);
 
                 System.out.println("Processed on seg [" + i + "], id: " + id + "\n" + buffer);
                 try {
-                    Thread.sleep(new Random().nextInt(1000) + 200);
+                    Thread.sleep(new Random().nextInt(100) + 200);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
