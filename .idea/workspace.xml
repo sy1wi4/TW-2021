@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="finish zad2, missing plots">
+    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="add own fair buffer implementation">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lab5/lab5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/src/Mandelbrot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/src/MandelbrotSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/zad1/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/zad1/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/zad1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/zad1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/zad1/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/zad1/Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/zad1/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/zad1/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/zad2/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/zad2/Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/zad2/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/zad2/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/zad2/FairBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/zad2/FairBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/zad2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/zad2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/zad2/NaiveBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/zad2/NaiveBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/zad2/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/zad2/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/src/Mandelbrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/src/Mandelbrot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +61,14 @@
       <recent name="$PROJECT_DIR$/lab3/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lab2/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Mandelbrot">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -89,15 +82,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zad2.Main" />
-      <module name="lab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zad2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="DefaultMandelbrot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefaultMandelbrot" />
+      <module name="lab5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,12 +154,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Mandelbrot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mandelbrot" />
+      <module name="lab5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mandelbrot" />
+        <item itemvalue="Application.DefaultMandelbrot" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +193,7 @@
       <workItem from="1637412544840" duration="108000" />
       <workItem from="1637412739878" duration="1561000" />
       <workItem from="1637416612737" duration="43000" />
-      <workItem from="1637416668032" duration="5517000" />
+      <workItem from="1637416668032" duration="15032000" />
     </task>
     <task id="LOCAL-00001" summary="Add synchronized and not synchronized versions">
       <created>1634843742124</created>
@@ -256,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637070694648</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add own fair buffer implementation">
+      <created>1637422945954</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637422945954</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +285,7 @@
     <MESSAGE value="production line with buffer" />
     <MESSAGE value="add naive zad2 solution" />
     <MESSAGE value="finish zad2, missing plots" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish zad2, missing plots" />
+    <MESSAGE value="add own fair buffer implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add own fair buffer implementation" />
   </component>
 </project>
