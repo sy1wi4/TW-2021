@@ -1,6 +1,6 @@
 import java.awt.image.BufferedImage;
 
-public class MandelbrotSegment {
+public class MandelbrotSegment implements ImageElement {
     private final int from;
     private final BufferedImage I;
 
@@ -9,15 +9,23 @@ public class MandelbrotSegment {
         I = new BufferedImage(to - from, height, BufferedImage.TYPE_INT_RGB);
     }
 
-    public int getStartX() {
+    @Override
+    public int getX() {
         return from;
+    }
+
+    @Override
+    public int getY() {
+        return 0;
+    }
+
+    @Override
+    public BufferedImage getI() {
+        return I;
     }
 
     public void setRGB(int x, int y, int rgb) {
         I.setRGB(x, y, rgb);
     }
 
-    public BufferedImage getI() {
-        return I;
-    }
 }

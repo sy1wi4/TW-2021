@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="add own fair buffer implementation">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/lab5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/src/MandelbrotSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/src/Task.java" afterDir="false" />
+    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="add asynchronous Mandelbrot set generation">
+      <change afterPath="$PROJECT_DIR$/lab5/src/ImageElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/src/Pixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/src/PixelTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab5/src/Mandelbrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/src/Mandelbrot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/src/MandelbrotSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/src/MandelbrotSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/src/SegmentTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -32,6 +34,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="3" />
   </component>
   <component name="ProjectId" id="1zpPyrzNk3jCyQ1XTNrZm5OXOiJ" />
   <component name="ProjectViewState">
@@ -49,6 +54,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2611111" />
   </component>
@@ -68,7 +74,7 @@
       <recent name="zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Mandelbrot">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -84,6 +90,13 @@
     </configuration>
     <configuration name="DefaultMandelbrot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DefaultMandelbrot" />
+      <module name="lab5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="lab5" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,19 +118,6 @@
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zad2.Main" />
       <module name="lab4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zad2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zad2.Main" />
-      <module name="lab2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="zad2.*" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Mandelbrot" />
         <item itemvalue="Application.DefaultMandelbrot" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +193,7 @@
       <workItem from="1637412544840" duration="108000" />
       <workItem from="1637412739878" duration="1561000" />
       <workItem from="1637416612737" duration="43000" />
-      <workItem from="1637416668032" duration="15032000" />
+      <workItem from="1637416668032" duration="27867000" />
     </task>
     <task id="LOCAL-00001" summary="Add synchronized and not synchronized versions">
       <created>1634843742124</created>
@@ -258,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637422945954</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add asynchronous Mandelbrot set generation">
+      <created>1637535447873</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637535447873</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +293,7 @@
     <MESSAGE value="add naive zad2 solution" />
     <MESSAGE value="finish zad2, missing plots" />
     <MESSAGE value="add own fair buffer implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add own fair buffer implementation" />
+    <MESSAGE value="add asynchronous Mandelbrot set generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add asynchronous Mandelbrot set generation" />
   </component>
 </project>

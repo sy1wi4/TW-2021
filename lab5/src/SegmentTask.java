@@ -1,12 +1,12 @@
 import java.util.concurrent.Callable;
 
-public class Task implements Callable<MandelbrotSegment> {
+public class SegmentTask implements Callable<ImageElement> {
     private final int from, to, height;
     private final int maxIter;
     private final double zoom;
     private final MandelbrotSegment segment;
 
-    public Task(int height, int from, int to, int maxIter, double zoom) {
+    public SegmentTask(int height, int from, int to, int maxIter, double zoom) {
         this.from = from;
         this.to = to;
         this.height = height;
@@ -17,7 +17,7 @@ public class Task implements Callable<MandelbrotSegment> {
 
     @Override
     public MandelbrotSegment call() {
-        System.out.println(toString());
+//        System.out.println(toString());
         return generateMandelbrotSet();
     }
 
