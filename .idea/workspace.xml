@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="add pixel mode calculation, refactor">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TW-2021.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/lab6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/test1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/zad1a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/zad1b.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="add lab6">
+      <change afterPath="$PROJECT_DIR$/lab6/src/zad2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/test1.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/test-sequential.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/zad1a.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/zad1a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/zad1b.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/zad1b.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
-        <option value="JavaScript File" />
         <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -81,7 +75,7 @@
       <recent name="zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.zad1b.js">
+  <component name="RunManager" selected="Node.js.zad2.js">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -95,14 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="lab5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab6/src/test1.js" working-dir="$PROJECT_DIR$/lab6/src">
+    <configuration name="test-sequential.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab6/src/test-sequential.js" working-dir="$PROJECT_DIR$/lab6/src">
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab6/src/test.js" working-dir="$PROJECT_DIR$/lab6/src">
@@ -114,13 +101,16 @@
     <configuration name="zad1b.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab6/src/zad1b.js" working-dir="$PROJECT_DIR$/lab6/src">
       <method v="2" />
     </configuration>
+    <configuration name="zad2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab6/src/zad2.js" working-dir="$PROJECT_DIR$/lab6/src">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.zad2.js" />
         <item itemvalue="Node.js.zad1b.js" />
-        <item itemvalue="Node.js.zad1a.js" />
-        <item itemvalue="Node.js.test1.js" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.zad1a.js" />
+        <item itemvalue="Node.js.test-sequential.js" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +138,9 @@
       <workItem from="1637416612737" duration="43000" />
       <workItem from="1637416668032" duration="28028000" />
       <workItem from="1637607359058" duration="698000" />
-      <workItem from="1637680814370" duration="4016000" />
+      <workItem from="1637680814370" duration="4248000" />
+      <workItem from="1637780908222" duration="234000" />
+      <workItem from="1638017377136" duration="2957000" />
     </task>
     <task id="LOCAL-00001" summary="Add synchronized and not synchronized versions">
       <created>1634843742124</created>
@@ -227,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637606613313</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add lab6">
+      <created>1637684883341</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1637684883341</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +256,7 @@
     <MESSAGE value="add own fair buffer implementation" />
     <MESSAGE value="add asynchronous Mandelbrot set generation" />
     <MESSAGE value="add pixel mode calculation, refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pixel mode calculation, refactor" />
+    <MESSAGE value="add lab6" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lab6" />
   </component>
 </project>

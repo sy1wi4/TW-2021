@@ -1,6 +1,7 @@
 let async = require("async")
+
 function printAsync(s, cb) {
-    var delay = Math.floor((Math.random() * 1000) + 500);
+    const delay = Math.floor((Math.random() * 1000) + 500);
     setTimeout(function () {
         console.log(s);
         if (cb) cb();
@@ -32,4 +33,5 @@ function loop(n) {
         console.log("Done!");
     });
 }
+
 loop(4)

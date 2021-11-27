@@ -1,5 +1,5 @@
 function printAsync(s, cb) {
-    var delay = Math.floor((Math.random() * 1000) + 500);
+    const delay = Math.floor((Math.random() * 1000) + 500);
     setTimeout(function () {
         console.log(s);
         if (cb) cb();
@@ -36,7 +36,7 @@ function task3(cb) {
 */
 
 function loop(n) {
-    if (n === 1){
+    if (n === 1) {
         task1(function () {
             console.log('done!');
         });
