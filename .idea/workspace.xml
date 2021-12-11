@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="add lab6">
-      <change afterPath="$PROJECT_DIR$/lab6/src/zad2.js" afterDir="false" />
+    <list default="true" id="37a2b72b-ff9e-4446-a4e9-ec5d8180dda5" name="Default Changelist" comment="add lab8">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/lab8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/src/tasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/src/test1.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/test-sequential.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/src/zad1a.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/zad1a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/src/zad1b.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/zad1b.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <recent name="zad2" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.zad2.js">
+  <component name="RunManager" selected="Node.js.tasks.js">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -89,16 +89,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test-sequential.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab6/src/test-sequential.js" working-dir="$PROJECT_DIR$/lab6/src">
+    <configuration name="idk2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab8/src/idk2.js" working-dir="$PROJECT_DIR$/lab8/src">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab6/src/test.js" working-dir="$PROJECT_DIR$/lab6/src">
+    <configuration name="idk.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab8/src/idk.js" working-dir="$PROJECT_DIR$/lab8/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="tasks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab8/src/tasks.js" working-dir="$PROJECT_DIR$/lab8/src">
       <method v="2" />
     </configuration>
     <configuration name="zad1a.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab6/src/zad1a.js" working-dir="$PROJECT_DIR$/lab6/src">
-      <method v="2" />
-    </configuration>
-    <configuration name="zad1b.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab6/src/zad1b.js" working-dir="$PROJECT_DIR$/lab6/src">
       <method v="2" />
     </configuration>
     <configuration name="zad2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab6/src/zad2.js" working-dir="$PROJECT_DIR$/lab6/src">
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.zad2.js" />
-        <item itemvalue="Node.js.zad1b.js" />
-        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.tasks.js" />
+        <item itemvalue="Node.js.idk2.js" />
+        <item itemvalue="Node.js.idk.js" />
         <item itemvalue="Node.js.zad1a.js" />
-        <item itemvalue="Node.js.test-sequential.js" />
+        <item itemvalue="Node.js.zad2.js" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +140,12 @@
       <workItem from="1637607359058" duration="698000" />
       <workItem from="1637680814370" duration="4248000" />
       <workItem from="1637780908222" duration="234000" />
-      <workItem from="1638017377136" duration="2957000" />
+      <workItem from="1638017377136" duration="3817000" />
+      <workItem from="1638226484413" duration="2286000" />
+      <workItem from="1638382378365" duration="598000" />
+      <workItem from="1638890242641" duration="5656000" />
+      <workItem from="1638988677760" duration="4000" />
+      <workItem from="1639227567833" duration="13630000" />
     </task>
     <task id="LOCAL-00001" summary="Add synchronized and not synchronized versions">
       <created>1634843742124</created>
@@ -226,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637684883341</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finish lab6">
+      <created>1638020591315</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1638020591315</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +269,12 @@
     <MESSAGE value="add asynchronous Mandelbrot set generation" />
     <MESSAGE value="add pixel mode calculation, refactor" />
     <MESSAGE value="add lab6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lab6" />
+    <MESSAGE value="finish lab6" />
+    <MESSAGE value="add lab8" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lab8" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
